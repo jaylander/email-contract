@@ -13,6 +13,7 @@
                 padding="0"
                 inner-padding="0"
             />
+            <mj-class 
             <mj-class
                 name="footer-btn"
                 text-transform="none"
@@ -70,25 +71,34 @@
                 <mj-image src="logo.png" padding="0" />
             </mj-column>
         </mj-section>
-        <mj-section padding="0">
-            <mj-column padding="0">
-                <mj-navbar base-url="https://jaylander.com">
-                    <mj-navbar-link href="/#" padding="0 20px 0 0"
-                        >Women</mj-navbar-link
-                    >
-                    <mj-navbar-link href="/#" padding="10px 30px"
-                        >Men</mj-navbar-link
-                    >
-                    <mj-navbar-link href="/#" padding="10px 30px"
-                        >Beauty</mj-navbar-link
-                    >
-                    <mj-navbar-link href="/#" padding="10px 30px"
-                        >Home</mj-navbar-link
-                    >
-                    <mj-navbar-link href="/#" padding="0 0 0 20px"
-                        >Sale</mj-navbar-link
-                    >
+        <!-- <mj-section padding="0"> -->
+        <!-- <mj-column>
+                <mj-navbar
+                    base-url="https://jaylander.com"
+                    hamburger="hamburger"
+                >
+                    <mj-navbar-link href="/#">Women</mj-navbar-link>
+                    <mj-navbar-link href="/#">>Men</mj-navbar-link>
+                    <mj-navbar-link href="/#">Beauty</mj-navbar-link>
+                    <mj-navbar-link href="/#">Home</mj-navbar-link>
+                    <mj-navbar-link href="/#">Sale</mj-navbar-link>
                 </mj-navbar>
+            </mj-column> -->
+        <mj-section padding="0">
+            <mj-column>
+                <mj-button> Women </mj-button>
+            </mj-column>
+            <mj-column>
+                <mj-button> Women </mj-button>
+            </mj-column>
+            <mj-column>
+                <mj-button> Women </mj-button>
+            </mj-column>
+            <mj-column>
+                <mj-button> Women </mj-button>
+            </mj-column>
+            <mj-column>
+                <mj-button> Women </mj-button>
             </mj-column>
         </mj-section>
         <!-- Hero -->
@@ -105,12 +115,12 @@
             </mj-column>
         </mj-section>
         <mj-section padding="0">
-            <mj-column background-color="#d4d4d5" >
+            <mj-column background-color="#d4d4d5">
                 <!-- mode="fixed-height" height="662px" background-width="600px"
                 background-height="662px" background-url="man2.png"
                   > -->
                 <mj-text
-                padding-top="15px"
+                    padding-top="15px"
                     font-family="Helvetica"
                     font-style="italic"
                     vertical-align="top"
@@ -277,6 +287,7 @@
                     alt=""
                     width="537px"
                     href="#"
+                    padding="0"
                 />
                 <mj-text align="center" font-size="30px" padding="30px">
                     You may also love...
